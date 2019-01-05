@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 import time
 
-mnist = input_data.read_data_sets("../data/MNIST_data", one_hot=True)
+mnist = input_data.read_data_sets("./data/MNIST_data", one_hot=True)
 print('mnist.train.num_examples = ', mnist.train.num_examples)
 print('mnist.test.labels = ', len(mnist.test.labels))
 batch_size = 100
